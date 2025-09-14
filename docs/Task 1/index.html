@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FlexiSAF Intermediate Frontend - WEEK 1(Task 1)</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1 class="title">Summary of Learning on JS and ES6 Array Methods </h1>
+            <p>For the first week task, I studied some Javascript tutorials covering basics like variables, functionc, objects, loops, ES6 features and so many other subtopics. The key learning outcome of the week include:</p>
+
+            <ul>
+                <li>Core JS Fundamentals such as variables, data types, operators, conditionals, loops, arrays, DOM     Manipulation, events and async.</li>
+                <li>ES6-Specific Features such as Let/const for block scoping, arrow functions for concise syntax, destructuring for unpacking, spread operator for iteration/expansion, Sets/Maps for unique/ordered data, classes for OOP, and so many more.</li>
+        
+            </ul>
+            <p>Below is a demo and illustration of some of the things I learnt. It shows some array methods using a simple array: <code>["Arsenal", "Barcelona", "Chelsea", "Liverpool", "PSG", "Real Madrid", "Wolves"]</code>. Click the buttons under each section to see each method in action.</p>
+
+            <div class="sections">
+                <div class="section">
+                    <h2>1. Array.from(): Make Array from string</h2>
+                    <p>It turns a string like "Dortmund" into an array of characters.</p>
+                    <button onclick="arrayFromDemo()">Run</button>
+                    <div class="output" id="arrayFromOutput"></div>
+                </div>
+
+                <section>
+                    <h2>2. Array.find():Find first match</h2>
+                    <p>Finds the first array element that matches the condition.</p>
+                    <button onclick="arrayFindDemo()">Run</button>
+                    <div class="output" id="arrayFindOutput"></div>
+                </section>
+
+                <section>
+                    <h2>3. Array.findIndex():Index of First Match</h2>
+                    <p>Finds the index of the first array element matching a condition.</p>
+                    <button onclick="arrayFindIndexDemo()">Run</button>
+                    <div class="output" id="arrayFindIndexOutput"></div>
+                </section>
+                <section>
+                    <h2>4. Array.entries():List Index/ Value Pairs</h2>
+                    <p>Shows each array element with its index.</p>
+                    <button onclick="arrayEntriesDemo()">Run</button>
+                    <div class="output" id="arrayEntriesOutput"></div>
+                </section>
+                <section>
+                    <h2>5. Array.keys():List Indices</h2>
+                    <p>Shows the indices of the array.</p>
+                    <button onclick="arrayKeyDemo()">Run</button>
+                    <div class="output" id="arrayKeyOutput"></div>
+                </section>
+                <section>
+                    <h2>6. Array.map():Transform an Array</h2>
+                    <p>Changes each array element.</p>
+                    <button onclick="arrayMapDemo()">Run</button>
+                    <div class="output" id="arrayMapOutput"></div>
+                </section>
+                <section>
+                    <h2>7. Array.filter():Keep Matches</h2>
+                    <p>Keep array elements matching a condition.</p>
+                    <button onclick="arrayFilterDemo()">Run</button>
+                    <div class="output" id="arrayFilterOutput"></div>
+                </section>
+                <section>
+                    <h2>8. Array.reduce():Combine to single value</h2>
+                    <p>Combines array into one value.</p>
+                    <button onclick="arrayReduceDemo()">Run</button>
+                    <div class="output" id="arrayReduceOutput"></div>
+                </section>
+                <section>
+                    <h2>9. Array.forEach():Loop with some effects</h2>
+                    <p>Loops through array elements to perform an action.</p>
+                    <button onclick="arrayForEachDemo()">Run</button>
+                    <div class="output" id="arrayForEachOutput"></div>
+                </section>
+                <section>
+                    <h2>10. Array.some():Check for any match</h2>
+                    <p>Checks if any array elements matches a condition.</p>
+                    <button onclick="arraySomeDemo()">Run</button>
+                    <div class="output" id="arraySomeOutput"></div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
